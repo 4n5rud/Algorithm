@@ -11,5 +11,6 @@ foreach(file ${SOURCES})
     get_filename_component(name ${file} NAME_WE)
 
     # 추출한 이름으로 개별 실행 파일 생성
-    add_executable(${name} ${file})
+    add_executable(${name} ${file}
+            BOJ/2805.cc)
 endforeach()
