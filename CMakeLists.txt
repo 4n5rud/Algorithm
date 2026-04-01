@@ -12,5 +12,6 @@ foreach(file ${SOURCES})
 
     # 추출한 이름으로 개별 실행 파일 생성
     add_executable(${name} ${file}
-            BOJ/2417.cc)
+            BOJ/unsolved/2417.cc
+            BOJ/ing/2512.cc)
 endforeach()
