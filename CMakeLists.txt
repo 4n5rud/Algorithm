@@ -12,5 +12,6 @@ foreach(file ${SOURCES})
 
     # 각 파일(${file})을 해당 이름(${name})의 단독 실행 파일로 생성
     # 기존 코드에서 2417.cc와 2512.cc를 명시했던 부분을 삭제했습니다.
-    add_executable(${name} ${file})
+    add_executable(${name} ${file}
+            BOJ/solved/16401.cc)
 endforeach()
